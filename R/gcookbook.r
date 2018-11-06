@@ -68,7 +68,7 @@ NULL
 NULL
 
 
-#' Global climate temperature anomaly data from 1800 to 2011 
+#' Global climate temperature anomaly data from 1800 to 2011
 #'
 #' This data set includes estimated global temperature anamoly data for the
 #' years 1800 through 2011. The anomaly is the difference from the baseline
@@ -89,7 +89,7 @@ NULL
 #' @usage climate
 #'
 #' @source
-#'   Berkeley Earth Project: \url{http://berkeleyearth.org/dataset/}
+#'   Berkeley Earth Project: \url{http://berkeleyearth.org/land-and-ocean-data/}
 #'
 #'   Climatic Research Unit (CRUTEM3): \url{http://www.cru.uea.ac.uk/cru/data/temperature/}
 #'
@@ -188,7 +188,7 @@ NULL
 #' Data from simulation of hurricane Isabel
 #'
 #' This data is from a simulation of hurricane Isabel in 2003. It includes
-#' temperature and wind data for a 2139km (east-west) x 2004km (north-south) x 
+#' temperature and wind data for a 2139km (east-west) x 2004km (north-south) x
 #' 19.8km (vertical) volume. The simluation data is from the National Center
 #' for Atmospheric Research, and it was used in the IEEE Visualization 2004
 #' Contest.
@@ -374,7 +374,7 @@ NULL
 #'
 #' @seealso This data frame is in "wide" format. See \code{\link{simpledat_long}}
 #'   for the same data in "long" format.
-#' 
+#'
 #' @docType data
 #' @name simpledat
 #' @usage simpledat
@@ -387,7 +387,7 @@ NULL
 #'
 #' @seealso This data frame is in "long" format. See \code{\link{simpledat}}
 #'   for the same data in "wide" format.
-#' 
+#'
 #' @docType data
 #' @name simpledat_long
 #' @usage simpledat_long
@@ -412,7 +412,7 @@ NULL
 #'  \item g: Number of games
 #'  \item ab: Number of times at bat
 #'  \item r: Number of runs
-#'  \item h: Number of hits (times reached base because of a batted, fair ball 
+#'  \item h: Number of hits (times reached base because of a batted, fair ball
 #'    without error by the defense)
 #'  \item 2b: Hits on which the batter reached second base safely
 #'  \item 3b: Hits on which the batter reached third base safely
@@ -455,8 +455,7 @@ NULL
 #'
 #' @source
 #'   U.S. Census Bureau, Statistical Abstract of the United States, 2003, HS-3:
-#'     \url{http://www.census.gov/statab/hist/HS-03.pdf} and
-#'     \url{www.census.gov/statab/hist/02HS0003.xls}.
+#'     \url{http://www2.census.gov/library/publications/2004/compendia/statab/123ed/hist/hs-03.pdf}
 NULL
 
 
@@ -479,7 +478,7 @@ NULL
 #'
 #' @source
 #'  U.S. Census Bureau, Statistical Abstract of the United States, 2012, Table 14.
-#'    \url{http://www.census.gov/compendia/statab/2012/tables/12s0014.pdf}
+#'    \url{https://www2.census.gov/library/publications/2011/compendia/statab/131ed/2012-statab.pdf}
 NULL
 
 
@@ -520,4 +519,21 @@ NULL
 #' @docType data
 #' @name worldpop
 #' @usage worldpop
+NULL
+
+
+#' Summarized ToothGrowth data
+#'
+#' @section Variables:
+#' \itemize{
+#'   \item supp
+#'   \item dose
+#'   \item length
+#' }
+#'
+#' @docType data
+#' @name tg
+#' @usage tg
+#'
+#' @seealso \code{\link[datasets]{ToothGrowth}}
 NULL
