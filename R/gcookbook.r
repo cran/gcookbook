@@ -4,9 +4,8 @@
 #' by Winston Chang, published by O'Reilly Media.
 #'
 #' @name gcookbook
-#' @docType package
 #' @aliases gcookbook package-gcookbook
-NULL
+"_PACKAGE"
 
 #' Apple stock data
 #'
@@ -56,7 +55,7 @@ NULL
 #' Summary of cabbages data set
 #'
 #' This data set has groupwise means, standard deviations, counts, and standard
-#' error of the mean for the \code{\link{cabbages}} data set from the MASS
+#' error of the mean for the \code{\link[MASS]{cabbages}} data set from the MASS
 #' package. The purpose of this summarized data set is to make it easy to use
 #' for example graphs.
 #'
@@ -64,7 +63,7 @@ NULL
 #' @name cabbage_exp
 #' @usage cabbage_exp
 #'
-#' @seealso The source data set in the MASS package, \code{\link{cabbages}}.
+#' @seealso The source data set in the MASS package, \code{\link[MASS]{cabbages}}.
 NULL
 
 
@@ -91,9 +90,9 @@ NULL
 #' @source
 #'   Berkeley Earth Project: \url{http://berkeleyearth.org/land-and-ocean-data/}
 #'
-#'   Climatic Research Unit (CRUTEM3): \url{http://www.cru.uea.ac.uk/cru/data/temperature/}
+#'   Climatic Research Unit (CRUTEM3): \url{https://crudata.uea.ac.uk/cru/data/crutem3/}
 #'
-#'   NASA: \url{http://data.giss.nasa.gov/gistemp/}
+#'   NASA: \url{https://data.giss.nasa.gov/gistemp/}
 #'
 NULL
 
@@ -142,7 +141,7 @@ NULL
 #' @usage countries
 #'
 #' @source
-#'   World Bank: \url{http://data.worldbank.org/}
+#'   World Bank: \url{https://data.worldbank.org/}
 NULL
 
 
@@ -212,7 +211,7 @@ NULL
 #' @source
 #'   \url{http://vis.computer.org/vis2004contest/data.html}
 #'
-#'   \url{http://ncar.ucar.edu/}
+#'   \url{https://ncar.ucar.edu/}
 #'
 NULL
 
